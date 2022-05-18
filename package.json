@@ -1,0 +1,21 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel *.html -p 3000",
+    "build": "parcel build *.html",
+    "eslint": "eslint js/**.js",
+    "stylelint": "stylelint 'style/**.css'"
+  },
+  "author": "Batyrbek",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "parcel": "^2.5.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-recommended": "^7.0.0"
+  }
+}

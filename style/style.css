@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto";
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+
+    width: 431px;
+    height: 359px;
+    left: 242px;
+    top: 187px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+
+    color: #8A8A8A;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+
+    width: 431px;
+    height: 645px;
+    left: 243px;
+    top: 44px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 20px;
+
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #8A8A8A;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+
+.button {
+    width: 300px;
+    height: 37px;
+    left: 306px;
+    top: 436px;
+    color: white;
+    background: #EA4335;
+    border-radius: 10px;
+}
+
+.go-somewhere-button {
+    width: 169px;
+    height: 15px;
+    left: 371px;
+    top: 494px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #0904F9;
+    background-color: white;
+    border: none;
+
+    margin-bottom: 30px;
+}
+
+.error-number {
+    width: 69px;
+    height: 47px;
+    left: 424px;
+    top: 235px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.text {
+
+    width: 400px;
+    height: 23px;
+    left: 277px;
+    top: 314px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    color: #000000;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto";
+}
